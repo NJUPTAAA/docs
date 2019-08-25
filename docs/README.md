@@ -14,4 +14,6 @@ Or you can email us by sending to **noj@njupt.edu.cn** for NOJ issues or **acm@n
 
 ## Sponsor Us
 
-Currently Unavailable.
+NOJ is under full maintenance by **NJUPT ICPC Team** and **Association for Advanced Algorithms of NJUPT**, it is deployed inside NJUPT Network Center thus we do not have server fees and so on. 
+
+But we would be more than appreciated if you can star us on [GitHub](https://github.com/ZsgsDesign/NOJ) if you find our project awesome. Lots of thanks.
