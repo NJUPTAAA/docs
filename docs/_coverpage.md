@@ -1,6 +1,6 @@
 # NOJ <small>0.3.2 Meyeri</small>
 
-> Yet Another Online Judge Platform
+> Yet Another Online Judge Platform Based on Laravel
 
 - Modern Designed with Material Design Principal
 - Expressive, Elegant with Laravel Framework
