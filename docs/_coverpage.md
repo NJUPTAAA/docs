@@ -8,4 +8,4 @@
 - Sandbox Secured Judger
 
 [GitHub](https://github.com/ZsgsDesign/NOJ/)
-[Getting Started](#noj)
+[Getting Started](#noj-documentation)
