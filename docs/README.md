@@ -4,7 +4,7 @@
 
 ## Current Users
 
-![NJUPT Online Judge](https://acm.njupt.edu.cn)
+ - NJUPT Online Judge https://acm.njupt.edu.cn
 
 ## Contact Support
 
