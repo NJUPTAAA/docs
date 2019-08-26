@@ -40,7 +40,7 @@ $urlArr = getCustomUrl();
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.2.2
 
 ***
 
@@ -62,7 +62,7 @@ $isEmailVerified = emailVerified();
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.2.2
 
 ***
 
@@ -87,7 +87,7 @@ $extensionDir = babel_path('Extension/');
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.0
 
 ***
 
@@ -121,7 +121,7 @@ if (empty($babelJSON)){
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.0
 
 ***
 
@@ -143,7 +143,7 @@ $extensionDir = babel_path('Extension/');
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.1
 
 ***
 
@@ -167,7 +167,7 @@ Route::get('/opensearch.xml', function () {
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.1
 
 ***
 
@@ -191,7 +191,7 @@ delFile(babel_path('Tmp'));
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.1
 
 ***
 
@@ -215,7 +215,7 @@ echo convertMarkdownToHtml("# NOJ\n\nYet Another Online Judge\n");
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.2
 
 ***
 
@@ -244,7 +244,7 @@ sendMessage([
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.2
 
 ***
 
@@ -268,6 +268,6 @@ echo formatHumanReadableTime('2018-10-24 10:24:00');
 None
 
 ### availability
-Accessible since 0.1.1
+Accessible since 0.3.2
 
 ***
