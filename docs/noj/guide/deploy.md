@@ -1,10 +1,12 @@
 # Deploy
 
-1. You need to have a server and installed the following:
+1. You need to have a server with Nginx or Apache installed and installed the following:
     - [PHP 7.3(Recommend 7.3.6)](http://php.net/downloads.php)
     - [Composer](https://getcomposer.org)
     - [MySQL 5.7(Recommend 8.0)](https://www.mysql.com/)
     - [Redis 3.2.1(Recommend 5.0)](https://redis.io)
+
+!> Notice: If you are a green hand, we recommend you `lnmp`, it's an open-source script for installing `Nginx`, `Mysql` and `PHP`. It can also be used install `Redis` as well. Check https://lnmp.org for more info.
 
 2. Clone NOJ to your website folder;
 
@@ -61,4 +63,4 @@ crontab -e
 
 !> Notice: NOJ Task Schedule runs lots of tasks, like sync judger or refresh ranks, you can check anytime at **NOJ Admin Panel**.
 
-9. NOJ's up-and-running, enjoy!
+9. NOJ's Website can now be accessed by public, enjoy!
