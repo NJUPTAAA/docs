@@ -6,6 +6,7 @@
     - [Admin Panel](noj/guide/admin.md)
     - [FrontEnd Utils](noj/guide/frontend.md)
     - [Helper Functions](noj/guide/helper.md)
+    - [MathJax](noj/guide/mathjax.md)
   - [FAQ](noj/faq.md)
   - [Contact Us](noj/guide/contact.md)
   - [Update NOJ](noj/update.md)
