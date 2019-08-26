@@ -6,7 +6,7 @@
     - [MySQL 5.7(Recommend 8.0)](https://www.mysql.com/)
     - [Redis 3.2.1(Recommend 5.0)](https://redis.io)
 
-!> Notice: If you are a green hand, we recommend you `lnmp`, it's an open-source script for installing `Nginx`, `Mysql` and `PHP`. It can also be used install `Redis` as well. Check https://lnmp.org for more info.
+!> Notice: If you are a green hand and are using `Linux`, we recommend you `lnmp`, it's an open-source script for installing `Nginx`, `Mysql` and `PHP`. It can also be used install `Redis` as well. Check https://lnmp.org for more info.
 
 2. Clone NOJ to your website folder;
 
