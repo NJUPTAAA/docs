@@ -1,4 +1,4 @@
-## MathJax 基础
+# MathJax
 
 NOJ supports Latex formulas, for inline formulas uses `$$$` and for block formulas `$$`.
 
