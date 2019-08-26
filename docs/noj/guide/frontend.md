@@ -1,6 +1,6 @@
 # FrontEnd Utils
 
-## alert
+## alert()
 Pop up an alert box with a confirmation button
 ```javascript
 alert(content, title, icon, backdrop)
@@ -41,7 +41,7 @@ Accessible since 0.2.3
 
 ***
 
-## confirm
+## confirm()
 Pop up a confirm box with done&deny button
 ```javascript
 confirm({params},callback(deny))
@@ -99,7 +99,7 @@ Accessible since 0.2.3
 
 ***
 
-## prompt
+## prompt()
 Pop up a prompt box with done&deny button
 ```javascript
 prompt({params},callback(deny,text))
@@ -170,7 +170,7 @@ param text is the value of the input component
 Accessible since 0.2.3
 
 
-## notify
+## notify()
 pop up global notification
 ```javascript
 notify(title,body,icon,tag){
@@ -201,6 +201,6 @@ notify("Welcome",'Hi, welcome back to the Fully new NOJ',"/static/img/notify/nju
 
 None
 
-### Availability
+### availability
 
 Accessible since 0.2.3
