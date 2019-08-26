@@ -10,7 +10,7 @@
 
 2. Clone NOJ to your website folder;
 
-```
+```bash
 cd /path-to-noj/
 git clone https://github.com/ZsgsDesign/NOJ ./
 ```
@@ -19,7 +19,7 @@ git clone https://github.com/ZsgsDesign/NOJ ./
 
 4. Now run the following commands at the root folder of NOJ;
 
-```
+```bash
 composer install
 ```
 
@@ -27,27 +27,27 @@ composer install
 
 5. Almost done, you still got to modify a few folders and give them permission to write;
 
-```
+```bash
 chmod -R 775 storage/
 chmod -R 775 bootstrap/
 ```
 
 6. OK, right now we still need to configure environment, a typical `.env` just like the `.env.example`, you simply need to type the following codes;
 
-```
+```bash
 cp .env.example .env
 vim .env
 ```
 
 After editing `.env`, use this to generate a new key:
 
-```
+```bash
 php artisan key:generate
 ```
 
 7. Now, we need to configure the database, thankfully Laravel has migration already;
 
-```
+```bash
 php artisan migrate
 ```
 
@@ -56,7 +56,7 @@ php artisan migrate
 
 8. At last, we need to configure scheduling system for NOJ;
 
-```
+```bash
 crontab -e
 * * * * * php /path-to-noj/artisan schedule:run
 ```
