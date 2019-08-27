@@ -1,6 +1,6 @@
 # Judging Queue
 
-# Basic
+## Basic
 
 To start NOJ Judging Queue, simply typing this command:
 ```bash
@@ -13,7 +13,7 @@ If you have multiple Babel Extensions, just add then to the queue, like:
 php artisan queue:work --queue=noj,codeforces,contesthunter,poj,vijos,pta,uva,hdu,uvalive
 ```
 
-# Daemon
+## Daemon
 
 NOJ recommend using Supervisor for Daemon porcess.
 
@@ -43,4 +43,4 @@ sudo supervisorctl update
 sudo supervisorctl start NOJ:*
 ```
 
-For more information on Supervisor, consult the [Supervisor documentation](http://supervisord.org/index.html).
+3. For more information on Supervisor, consult the [Supervisor documentation](http://supervisord.org/index.html).
