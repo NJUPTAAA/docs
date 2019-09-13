@@ -2,7 +2,7 @@
 
   - User Guide
     - [Deploy NOJ](noj/guide/deploy.md)
-    - [Queue](noj/guide/queue.md)
+    - [Configure Queue](noj/guide/queue.md)
     - [Admin Panel](noj/guide/admin.md)
     - [FrontEnd Utils](noj/guide/frontend.md)
     - [Helper Functions](noj/guide/helper.md)

@@ -1,6 +1,8 @@
-# Judging Queue
+# Configure Queue
 
-## Basic
+## Judging Queue
+
+### Basic
 
 To start NOJ Judging Queue, simply typing this command:
 ```bash
@@ -13,7 +15,7 @@ If you have multiple Babel Extensions, just add then to the queue, like:
 php artisan queue:work --queue=noj,codeforces,contesthunter,poj,vijos,pta,uva,hdu,uvalive
 ```
 
-## Daemon
+### Daemon
 
 NOJ recommend using Supervisor for Daemon porcess.
 
@@ -43,11 +45,11 @@ sudo supervisorctl start NOJBabel:*
 
 3. For more information on Supervisor, consult the [Supervisor documentation](http://supervisord.org/index.html).
 
-# Asynchronous Jobs
+## Asynchronous Jobs
 
 NOJ has some asynchronous jobs like **generate PDF** or **detect code plagiarism**. Those jobs also require queue.
 
-## Basic
+### Basic
 
 To start NOJ Asynchronous Jobs Queue, simply typing this command:
 ```bash
@@ -57,7 +59,7 @@ This would start a monitor process that will process all user submissions and ha
 
 Jobs in `high` queue has the most priority and `low` has the least priority.
 
-## Daemon
+### Daemon
 
 NOJ recommend using Supervisor for Daemon porcess.
 
