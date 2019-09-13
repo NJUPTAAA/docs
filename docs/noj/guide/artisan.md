@@ -9,6 +9,12 @@
 php artisan manage:resetpass --uid=1 --digit=9
 ```
 
+### Create Admin User
+
+```bash
+php artisan manage:create-admin
+```
+
 ## Babel
 
 See **Babel Section**.
