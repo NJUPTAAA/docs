@@ -9,7 +9,7 @@
     - [Artisan Commands](noj/guide/artisan.md)
     - [MathJax](noj/guide/mathjax.md)
   - [FAQ](noj/faq.md)
-  - [Contact Us](noj/guide/contact.md)
+  - [Contact Us](noj/contact.md)
   - [Update NOJ](noj/update.md)
   - [Contributors](noj/team.md)
 
