@@ -1,6 +1,6 @@
 # Update NOJ
 
-1. Turn your application into Maintainence Mode.
+1. Turn your application into Maintenance Mode.
 
 ```bash
 php artisan down
