@@ -1,7 +1,8 @@
 # Contributors
 
 ## NOJ Development Team
-
+  <link rel="stylesheet" href="https://acm.njupt.edu.cn/static/fonts/MDI-WXSS/MDI.css">
+  <link rel="stylesheet" href="https://acm.njupt.edu.cn/static/css/wemd-color-scheme.css">
 <style>
 .user-container{
     display: flex;
@@ -62,6 +63,47 @@
     display:inline-block;
     border-radius:4px;
 }
+.user-card .user-social{
+    margin-top: 1rem;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    display:none;
+}
+.user-card .user-social a.social-icon{
+    width:1.5rem;
+    height:1.5rem;
+    border-radius:4rem;
+    background: #ddd;
+    margin:0 0.25rem;
+    text-decoration: none;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-card .user-social a.social-icon.social-github{
+    background: #24292e;
+    color: white;
+}
+.user-card .user-social a.social-icon.social-web{
+    background: var(--wemd-light-blue);
+    color: white;
+}
+.user-card .user-social a.social-icon.social-email{
+    background: var(--wemd-light-green);
+    color: white;
+}
+.user-card .user-social a.social-icon > i{
+    line-height:1;
+    font-size:1rem;
+}
+.user-card .user-social:first-child{
+    margin-left:0;
+}
+.user-card .user-social:last-child{
+    margin-right:0;
+}
 .badge-default{
     background: #ddd;
     color: #000;
@@ -98,6 +140,11 @@
             <p class="user-name">John Zhang</p>
             <p class="user-id"><a href="https://github.com/ZsgsDesign">@ZsgsDesign</a></p>
             <p class="user-badge badge-leader">Leader</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/ZsgsDesign"><i class="MDI github-circle"></i></a>
+                <a class="social-icon social-web" href="https://johnzhang.xyz/"><i class="MDI web"></i></a>
+                <a class="social-icon social-email" href="mailto:johnzhang@1cf.co"><i class="MDI email"></i></a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -106,6 +153,9 @@
             <p class="user-name">David Diao</p>
             <p class="user-id"><a href="https://github.com/DavidDiao">@DavidDiao</a></p>
             <p class="user-badge badge-deaputy">Deaputy</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/DavidDiao"><i class="MDI github-circle"></i></a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -114,6 +164,9 @@
             <p class="user-name">Cone Pi</p>
             <p class="user-id"><a href="https://github.com/pikanglong">@pikanglong</a></p>
             <p class="user-badge badge-backend">BackEnd</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/pikanglong"><i class="MDI github-circle"></i></a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -122,6 +175,9 @@
             <p class="user-name">X3ZvaWQ</p>
             <p class="user-id"><a href="https://github.com/X3ZvaWQ">@X3ZvaWQ</a></p>
             <p class="user-badge badge-backend">BackEnd</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/X3ZvaWQ"><i class="MDI github-circle"></i></a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -130,6 +186,9 @@
             <p class="user-name">Brethland</p>
             <p class="user-id"><a href="https://github.com/Brethland">@Brethland</a></p>
             <p class="user-badge badge-default">VirtualJudge</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/Brethland"><i class="MDI github-circle"></i></a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -138,6 +197,9 @@
             <p class="user-name">goufaan</p>
             <p class="user-id"><a href="https://github.com/goufaan">@goufaan</a></p>
             <p class="user-badge badge-frontend">FrontEnd</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/goufaan"><i class="MDI github-circle"></i></a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -146,6 +208,9 @@
             <p class="user-name">ChenKS12138</p>
             <p class="user-id"><a href="https://github.com/ChenKS12138">@ChenKS12138</a></p>
             <p class="user-badge badge-frontend">FrontEnd</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/ChenKS12138"><i class="MDI github-circle"></i></a>
+            </div>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -154,6 +219,9 @@
             <p class="user-name">Rp12138</p>
             <p class="user-id"><a href="https://github.com/Rp12138">@Rp12138</a></p>
             <p class="user-badge badge-backend">BackEnd</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/Rp12138"><i class="MDI github-circle"></i></a>
+            </div>
         </div>
     </div>
 </div>
