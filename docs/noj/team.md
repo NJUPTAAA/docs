@@ -36,6 +36,7 @@
     border: 1px solid #ddd;
     padding: 1rem;
     text-align: center;
+    margin:15px 0;
 }
 .user-card img{
     width: 5rem;
@@ -104,11 +105,55 @@
             <p class="user-badge badge-deaputy">Deaputy</p>
         </div>
     </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/pikanglong.png?s=64"/>
+            <p class="user-name">Cone Pi</p>
+            <p class="user-id"><a href="https://github.com/pikanglong">@pikanglong</a></p>
+            <p class="user-badge badge-backend">BackEnd</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/X3ZvaWQ.png?s=64"/>
+            <p class="user-name">X3ZvaWQ</p>
+            <p class="user-id"><a href="https://github.com/X3ZvaWQ">@X3ZvaWQ</a></p>
+            <p class="user-badge badge-backend">BackEnd</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/Brethland.png?s=64"/>
+            <p class="user-name">Brethland</p>
+            <p class="user-id"><a href="https://github.com/Brethland">@Brethland</a></p>
+            <p class="user-badge badge-default">VirtualJudge</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/goufaan.png?s=64"/>
+            <p class="user-name">goufaan</p>
+            <p class="user-id"><a href="https://github.com/goufaan">@goufaan</a></p>
+            <p class="user-badge badge-frontend">FrontEnd</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/ChenKS12138.png?s=64"/>
+            <p class="user-name">ChenKS12138</p>
+            <p class="user-id"><a href="https://github.com/ChenKS12138">@ChenKS12138</a></p>
+            <p class="user-badge badge-frontend">FrontEnd</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/goufaan.png?s=64"/>
+            <p class="user-name">Rp12138</p>
+            <p class="user-id"><a href="https://github.com/Rp12138">@Rp12138</a></p>
+            <p class="user-badge badge-backend">BackEnd</p>
+        </div>
+    </div>
 </div>
-
-| [<img src="https://github.com/ZsgsDesign.png?s=64" width="100px;"/><br /><sub><b>John Zhang</b></sub>](https://github.com/ZsgsDesign)<br />**Leader**   | [<img src="https://github.com/DavidDiao.png?s=64" width="100px;"/><br /><sub><b>David Diao</b></sub>](https://github.com/DavidDiao)<br />**Deaputy**<br />  | [<img src="https://github.com/pikanglong.png?s=64" width="100px;"/><br /><sub><b>Cone Pi</b></sub>](https://github.com/pikanglong)<br />**BackEnd**  | [<img src="https://github.com/X3ZvaWQ.png?s=64" width="100px;"/><br /><sub><b>X3ZvaWQ</b></sub>](https://github.com/X3ZvaWQ)<br />**BackEnd** | [<img src="https://github.com/Brethland.png?s=64" width="100px;"/><br /><sub><b>Brethland</b></sub>](https://github.com/Brethland)<br />**VirtualJudge** | [<img src="https://github.com/goufaan.png?s=64" width="100px;"/><br /><sub><b>goufaan</b></sub>](https://github.com/goufaan)<br />**FrontEnd**   |  [<img src="https://github.com/ChenKS12138.png?s=64" width="100px;"/><br /><sub><b>ChenKS12138</b></sub>](https://github.com/ChenKS12138)<br />**FrontEnd** |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [<img src="https://github.com/Rp12138.png?s=64" width="100px;"/><br /><sub><b>Rp12138</b></sub>](https://github.com/Rp12138)<br />**BackEnd**   |
 
 ## NJUPTAAA Platform Department
 
