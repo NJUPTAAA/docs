@@ -51,6 +51,9 @@
 .user-card p.user-id{
     font-size:65%;
 }
+.user-card p.user-id a{
+    text-decoration: none;
+}
 .user-card p.user-badge{
     margin-top: 2rem;
     font-size: 75%;
@@ -199,3 +202,5 @@
         </div>
     </div>
 </div>
+
+## Community Contributions
