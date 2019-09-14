@@ -213,7 +213,7 @@
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="user-card">
-            <img src="https://github.com/goufaan.png?s=64"/>
+            <img src="https://github.com/Rp12138.png?s=64"/>
             <p class="user-name">Rp12138</p>
             <p class="user-id"><a href="https://github.com/Rp12138">@Rp12138</a></p>
             <p class="user-badge badge-backend">BackEnd</p>
