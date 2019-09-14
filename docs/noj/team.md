@@ -179,7 +179,7 @@
             <img src="https://github.com/pikanglong.png?s=64"/>
             <p class="user-name">Cone Pi</p>
             <p class="user-id"><a href="https://github.com/pikanglong">@pikanglong</a></p>
-            <p class="user-badge badge-developer">Developer</p>
+            <p class="user-badge badge-developer">NOJ Developer</p>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -187,7 +187,7 @@
             <img src="https://github.com/X3ZvaWQ.png?s=64"/>
             <p class="user-name">X3ZvaWQ</p>
             <p class="user-id"><a href="https://github.com/X3ZvaWQ">@X3ZvaWQ</a></p>
-            <p class="user-badge badge-developer">Developer</p>
+            <p class="user-badge badge-developer">NOJ Developer</p>
         </div>
     </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -195,7 +195,7 @@
             <img src="https://github.com/goufaan.png?s=64"/>
             <p class="user-name">goufaan</p>
             <p class="user-id"><a href="https://github.com/goufaan">@goufaan</a></p>
-            <p class="user-badge badge-developer">Developer</p>
+            <p class="user-badge badge-developer">NOJ Developer</p>
         </div>
     </div>
 </div>
