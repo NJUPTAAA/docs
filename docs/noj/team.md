@@ -67,11 +67,11 @@
     background: #f7edff;
     color: #b998e7;
 }
-.badge-deaputy{
+.badge-deaputy, .badge-vp{
     background: #fdf6df;
     color: #e4bb7f;
 }
-.badge-backend{
+.badge-backend, .badge-developer{
     background: #ebf3fe;
     color: #85b3ec;
 }
@@ -157,5 +157,45 @@
 
 ## NJUPTAAA Platform Department
 
-| [<img src="https://github.com/ZsgsDesign.png?s=64" width="100px;"/><br /><sub><b>John Zhang</b></sub>](https://github.com/ZsgsDesign)<br />**Vice President**   | [<img src="https://github.com/DavidDiao.png?s=64" width="100px;"/><br /><sub><b>David Diao</b></sub>](https://github.com/DavidDiao)<br />**Vice President**<br />  | [<img src="https://github.com/pikanglong.png?s=64" width="100px;"/><br /><sub><b>Cone Pi</b></sub>](https://github.com/pikanglong)<br />**Developer**  | [<img src="https://github.com/X3ZvaWQ.png?s=64" width="100px;"/><br /><sub><b>X3ZvaWQ</b></sub>](https://github.com/X3ZvaWQ)<br />**Developer** | [<img src="https://github.com/goufaan.png?s=64" width="100px;"/><br /><sub><b>goufaan</b></sub>](https://github.com/goufaan)<br />**Developer**   | | |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+<div class="user-container">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/ZsgsDesign.png?s=64"/>
+            <p class="user-name">John Zhang</p>
+            <p class="user-id"><a href="https://github.com/ZsgsDesign">@ZsgsDesign</a></p>
+            <p class="user-badge badge-vp">Vice President</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/DavidDiao.png?s=64"/>
+            <p class="user-name">David Diao</p>
+            <p class="user-id"><a href="https://github.com/DavidDiao">@DavidDiao</a></p>
+            <p class="user-badge badge-vp">Vice President</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/pikanglong.png?s=64"/>
+            <p class="user-name">Cone Pi</p>
+            <p class="user-id"><a href="https://github.com/pikanglong">@pikanglong</a></p>
+            <p class="user-badge badge-developer">Developer</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/X3ZvaWQ.png?s=64"/>
+            <p class="user-name">X3ZvaWQ</p>
+            <p class="user-id"><a href="https://github.com/X3ZvaWQ">@X3ZvaWQ</a></p>
+            <p class="user-badge badge-developer">Developer</p>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/goufaan.png?s=64"/>
+            <p class="user-name">goufaan</p>
+            <p class="user-id"><a href="https://github.com/goufaan">@goufaan</a></p>
+            <p class="user-badge badge-developer">Developer</p>
+        </div>
+    </div>
+</div>
