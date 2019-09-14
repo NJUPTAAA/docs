@@ -1,8 +1,6 @@
 # Contributors
 
 ## NOJ Development Team
-  <link rel="stylesheet" href="https://acm.njupt.edu.cn/static/fonts/MDI-WXSS/MDI.css">
-  <link rel="stylesheet" href="https://acm.njupt.edu.cn/static/css/wemd-color-scheme.css">
 <style>
 .user-container{
     display: flex;
