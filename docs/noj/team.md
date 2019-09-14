@@ -222,6 +222,17 @@
             </div>
         </div>
     </div>
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="user-card">
+            <img src="https://github.com/Rp12138.png?s=64"/>
+            <p class="user-name">Alice</p>
+            <p class="user-id"><a href="https://github.com/Alicefantay">@Alicefantay</a></p>
+            <p class="user-badge badge-design">Design</p>
+            <div class="user-social">
+                <a class="social-icon social-github" href="https://github.com/Alicefantay"><i class="MDI github-circle"></i></a>
+            </div>
+        </div>
+    </div>
 </div>
 
 ## NJUPTAAA Platform Department
