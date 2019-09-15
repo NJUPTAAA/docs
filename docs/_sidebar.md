@@ -4,10 +4,11 @@
     - [Deploy NOJ](noj/guide/deploy.md)
     - [Configure Queue](noj/guide/queue.md)
     - [Admin Panel](noj/guide/admin.md)
-    - [FrontEnd Utils](noj/guide/frontend.md)
-    - [Helper Functions](noj/guide/helper.md)
     - [Artisan Commands](noj/guide/artisan.md)
     - [MathJax](noj/guide/mathjax.md)
+  - Developer Guide
+    - [FrontEnd Utils](noj/guide/frontend.md)
+    - [Helper Functions](noj/guide/helper.md)
   - [FAQ](noj/faq.md)
   - [Contact Us](noj/contact.md)
   - [Update NOJ](noj/update.md)
