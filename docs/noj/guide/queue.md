@@ -55,9 +55,9 @@ To start NOJ Asynchronous Jobs Queue, simply typing this command:
 ```bash
 php artisan queue:work --queue=high,normal,low
 ```
-This would start a monitor process that will process all user submissions and handle those submissions to judge servers or remote judge. Note that once the `queue:work` command has started, it will continue to run until it is manually stopped or you close your terminal. So this is only for test environment.
+This would start a monitor process that will process all time consuming jobs and handle those jobs. Note that once the `queue:work` command has started, it will continue to run until it is manually stopped or you close your terminal. So this is only for test environment.
 
-Jobs in `high` queue has the most priority and `low` has the least priority.
+Jobs in `high` queue has the most priority and `low` has the least priority, normally, NOJ puts all jobs in `normal` queue.
 
 ### Daemon
 
