@@ -7,7 +7,9 @@ Reuqirements:
 
 Docker images:
 
-  - docker pull njuptaaa/judge_server
+```bash
+docker pull njuptaaa/judge_server
+```
 
 Three environment variables below must be set manually in `docker-compose.yml`
  
