@@ -30,7 +30,7 @@ Three environment variables below must be set manually in `docker-compose.yml`
 Request data
 
 ```js
- {
+{
     "judger_version": "0.1.2",
     "hostname": "c45acd557074",
     "running_task_number": 2,
