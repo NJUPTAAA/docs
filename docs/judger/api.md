@@ -1,9 +1,11 @@
-# Judger for OnlineJudge 
+# Judger API
 
 ## build
 
 ```bash
 sudo apt-get install libseccomp-dev
+git clone https://github.com/NJUPTAAA/NOJ_Judger
+cd NOJ_Judger
 mkdir build && cd build && cmake .. && make && sudo make install
 ```
 
