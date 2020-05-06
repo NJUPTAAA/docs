@@ -1,4 +1,4 @@
-# NOJ <small>0.3.2 Meyeri</small>
+# NOJ <small>0.4.0 Piranha</small>
 
 > Yet Another Online Judge Platform Based on Laravel
 
