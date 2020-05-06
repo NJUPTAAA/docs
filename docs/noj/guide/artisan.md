@@ -15,6 +15,13 @@ php artisan manage:resetpass --uid=1 --digit=9
 php artisan manage:create-admin
 ```
 
+### Ban User
+
+```bash
+#The time parameter allows for all formats to strtotime function of php.
+php artisan manage:ban --user=1 --reason="Violation of user instructions" --time="+365 days"
+```
+
 ## Babel
 
 See **Babel Section**.

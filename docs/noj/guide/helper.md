@@ -271,3 +271,21 @@ None
 Accessible since 0.3.2
 
 ***
+
+## formatProblemSolvedTime()
+Convert seconds into hours, minutes and seconds
+```php
+function formatProblemSolvedTime($seconds);
+```
+
+### example
+```php
+echo formatProblemSolvedTime(3600);
+```
+
+### explanation
+None
+
+### availability
+Accessible since 0.4.0
+
