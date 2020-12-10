@@ -32,7 +32,7 @@ cd /path-to-noj/
 chown -R www:www ./
 ```
 
-!> Notice: In former docs we advised users to chage directory `storage/` and `bootstrap` to `775`, but now that approach is highly discouraged due to security concerns. We recommend the above approach much better. `www` is the default Nginx user name, for `Apache` it would be `www-data`, Notice that in your server that user might be slightly differect.
+!> Notice: In former docs we advised users to chage directory `storage/` and `bootstrap/` to `775`, but now that approach is highly discouraged due to security concerns. We recommend the above approach much better. `www` is the default Nginx user name, for `Apache` it would be `www-data`, Notice that in your server that user might be slightly differect.
 
 6. OK, right now we still need to configure environment, a typical `.env` just like the `.env.example`, you simply need to type the following codes;
 
