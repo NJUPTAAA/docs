@@ -3,6 +3,7 @@
   - User Guide
     - [Deploy NOJ](noj/guide/deploy.md)
     - [Configure Queue](noj/guide/queue.md)
+    - [Test Cases](noj/guide/test_cases.md)
     - [Admin Panel](noj/guide/admin.md)
     - [Artisan Commands](noj/guide/artisan.md)
     - [MathJax](noj/guide/mathjax.md)
