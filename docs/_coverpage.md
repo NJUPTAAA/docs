@@ -1,4 +1,4 @@
-# NOJ <small>0.5.0 Catoprion</small>
+# NOJ <small>0.4.1 Catoprion</small>
 
 > Yet Another Online Judge Platform Based on Laravel
 
