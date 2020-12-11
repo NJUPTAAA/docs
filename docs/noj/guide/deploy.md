@@ -63,7 +63,13 @@ php artisan migrate
 !> Notice: Make sure you have `.env` configured already, or this may lead to unpredictable bugs.
 
 
-8. At last, we need to configure scheduling system for NOJ;
+8. Since `0.4.1` NOJ uses `Passport` for API Auth Services, you need to install it first;
+
+```bash
+php artisan passport:install
+```
+
+9. At last, we need to configure scheduling system for NOJ;
 
 ```bash
 crontab -e
@@ -72,4 +78,5 @@ crontab -e
 
 !> Notice: NOJ Task Schedule runs lots of tasks, like sync judger or refresh ranks, you can check anytime at **NOJ Admin Panel**.
 
-9. NOJ's Website can now be accessed by public, enjoy!
+10. NOJ's Website can now be accessed by public, enjoy!
+

@@ -24,6 +24,12 @@ composer install
 php artisan migrate
 ```
 
+5. Notice that since `NOJ 0.5.0` we introduced `Laravel 7.x`, that may break some of your compiled views. So it is adviced to **always** run the following code to clear the view in case of further changes.
+
+```bash
+php artisan view:clear
+```
+
 5. Make your application live again.
 
 ```bash
