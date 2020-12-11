@@ -31,7 +31,7 @@ services:
     container_name: noj-rsync
     volumes:
       - $PWD/storage/test_case:/test_case
-      - $PWD/storage/log:/log
+      - $PWD/storage/logs:/log
     environment:
       - RSYNC_MODE=master
       - RSYNC_USER=ojrsync
