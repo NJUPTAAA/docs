@@ -21,6 +21,8 @@ Three environment variables below must be set manually in `docker-compose.yml`
   
 `service_url` is used to tell server to send task to this url(`judge_server`).
 
+Then type in `docker-compose up -d` and enjoy.
+
 # Heartbeat request
 
   - `Method`: `POST`
