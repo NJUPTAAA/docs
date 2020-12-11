@@ -28,9 +28,18 @@ composer install
 5. Almost done, you still got to modify a few folders and give them permission to write;
 
 ```bash
-chmod -R 775 storage/
-chmod -R 775 bootstrap/
+cd /path-to-noj/
+chown -R www:www ./
 ```
+
+NOJ need all directories to 755 and all files to 644, it should be done by default, if you are having concerns, try the following:
+
+```bash
+sudo find /path-to-noj/ -type f -exec chmod 644 {} \;
+sudo find /path-to-noj/ -type d -exec chmod 755 {} \;
+```
+
+!> Notice: In former docs we advised users to chage `storage/` and `bootstrap/` to `775` recursively, but now that approach is highly discouraged due to security concerns. We recommend the above approach much better. `www` is the default Nginx user name, for `Apache` it would be `www-data`, Notice that in your server that user might be slightly differect.
 
 6. OK, right now we still need to configure environment, a typical `.env` just like the `.env.example`, you simply need to type the following codes;
 
@@ -54,7 +63,13 @@ php artisan migrate
 !> Notice: Make sure you have `.env` configured already, or this may lead to unpredictable bugs.
 
 
-8. At last, we need to configure scheduling system for NOJ;
+8. Since `0.4.1` NOJ uses `Passport` for API Auth Services, you need to install it first;
+
+```bash
+php artisan passport:install
+```
+
+9. At last, we need to configure scheduling system for NOJ;
 
 ```bash
 crontab -e
@@ -63,4 +78,5 @@ crontab -e
 
 !> Notice: NOJ Task Schedule runs lots of tasks, like sync judger or refresh ranks, you can check anytime at **NOJ Admin Panel**.
 
-9. NOJ's Website can now be accessed by public, enjoy!
+10. NOJ's Website can now be accessed by public, enjoy!
+
