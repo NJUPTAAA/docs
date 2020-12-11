@@ -69,7 +69,7 @@ services:
     image: njuptaaa/rsync
     container_name: noj-rsync
     volumes:
-      - $PWD/data/backend/test_case:/test_case:ro
+      - $PWD/data/backend/test_case:/test_case
       - $PWD/data/rsync_log:/log
     environment:
       - RSYNC_MODE=slave
