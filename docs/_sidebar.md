@@ -7,6 +7,7 @@
     - [Admin Panel](noj/guide/admin.md)
     - [Artisan Commands](noj/guide/artisan.md)
     - [MathJax](noj/guide/mathjax.md)
+    - [Deploy NOJ with Docker](noj/guide/docker.md)
   - Developer Guide
     - [FrontEnd Utils](noj/guide/frontend.md)
     - [Helper Functions](noj/guide/helper.md)
