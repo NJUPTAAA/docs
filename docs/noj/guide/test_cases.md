@@ -9,7 +9,7 @@
 2. Access Main Service Server as `root`, then run the following;
 
 ```bash
-docker pull njuptaaa/judge_server
+docker pull njuptaaa/rsync
 ```
 
 Then run the following command to get an exmaple for `docker-compose.yml`:
@@ -48,7 +48,7 @@ Then type `docker-compose up -d` and make master rsync service running.
 3. Now Access Judge Server as `root`, then run the following;
 
 ```bash
-docker pull njuptaaa/judge_server
+docker pull njuptaaa/rsync
 ```
 
 Then run the following command to get an exmaple for `docker-compose.yml`:
