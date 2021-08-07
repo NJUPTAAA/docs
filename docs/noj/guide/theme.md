@@ -10,7 +10,7 @@ Since NOJ `0.5.0`, you can customize your NOJ theme. Right now it only affect na
     div.theme-container{
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
     div.theme-pattle{
         display: flex;
