@@ -32,11 +32,17 @@ cd /path-to-noj/
 chown -R www:www ./
 ```
 
-NOJ need all directories to 755 and all files to 644, it should be done by default, if you are having concerns, try the following:
+NOJ need all directories to 755 and all files to 644, it should be **done by default**, if you are having concerns, try the following:
 
 ```bash
 sudo find /path-to-noj/ -type f -exec chmod 644 {} \;
 sudo find /path-to-noj/ -type d -exec chmod 755 {} \;
+```
+
+If you are linux users, try the follwing, again, these commands and the above commands are **done by default**:
+
+```bash
+chmod +x /path-to-noj/binary/linux/sim*
 ```
 
 !> Notice: In former docs we advised users to chage `storage/` and `bootstrap/` to `775` recursively, but now that approach is highly discouraged due to security concerns. We recommend the above approach much better. `www` is the default Nginx user name, for `Apache` it would be `www-data`, Notice that in your server that user might be slightly differect.
