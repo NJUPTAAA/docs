@@ -7,6 +7,9 @@
         font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
         font-size: 0.9rem;
         color: #fff;
+        line-height: 1.5;
+        text-align: left;
+        font-weight: 400;
     }
     version-badge > inline-div:first-of-type{
         display:inline-block;
