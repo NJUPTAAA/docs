@@ -9,12 +9,12 @@
     - [MathJax](noj/guide/mathjax.md)
     - [Theme](noj/guide/theme.md)
     - [Deploy NOJ with Docker](noj/guide/docker.md)
-  - Developer Guide
-    - [FrontEnd Utils](noj/guide/frontend.md)
-    - [Helper Functions](noj/guide/helper.md)
   - Upgrade Guide
     - [Basic Upgrade](noj/upgrade/basic.md)
     - [0.4.2 to 0.5.0](noj/upgrade/aphyocharacinae.md)
+  - Developer Guide
+    - [FrontEnd Utils](noj/guide/frontend.md)
+    - [Helper Functions](noj/guide/helper.md)
   - [FAQ](noj/faq.md)
   - [Contact Us](noj/contact.md)
   - [Contributors](noj/team.md)
