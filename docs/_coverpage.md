@@ -1,4 +1,4 @@
-# NOJ <small>0.5.0 Aphyocharacinae</small>
+# ![NOJ](https://github.com/ZsgsDesign/NOJ/raw/master/noj2.png) <small>0.5.0 Aphyocharacinae</small>
 
 > Yet Another Online Judge Platform Based on Laravel
 
