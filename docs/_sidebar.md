@@ -12,9 +12,11 @@
   - Developer Guide
     - [FrontEnd Utils](noj/guide/frontend.md)
     - [Helper Functions](noj/guide/helper.md)
+  - Upgrade Guide
+    - [Basic Upgrade](noj/upgrade/basic.md)
+    - [0.4.2 to 0.5.0](noj/upgrade/aphyocharacinae.md)
   - [FAQ](noj/faq.md)
   - [Contact Us](noj/contact.md)
-  - [Update NOJ](noj/update.md)
   - [Contributors](noj/team.md)
 
 - Babel
@@ -22,7 +24,7 @@
   - Customize Extension
     - [Develop Extension](babel/develop.md)
     - [Upload Extension](babel/upload.md)
-    - [Update Extension](babel/update.md)
+    - [Upgrate Extension](babel/upgrate.md)
 
 - Judger
 
