@@ -1,7 +1,27 @@
 <h1 style="margin:0;">
     <img style="height: 5rem;max-width: 80vw;" src="https://github.com/ZsgsDesign/NOJ/raw/master/noj2.png" data-origin="https://github.com/ZsgsDesign/NOJ/raw/master/noj2.png" alt="NOJ">
 </h1>
-<small>0.5.0 Aphyocharacinae</small>
+<style>
+    version-badge {
+        display:inline-block;
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-size: 0.9rem;
+        color: #fff;
+    }
+    version-badge > inline-div:first-of-type{
+        display:inline-block;
+        padding:0 0.5rem;
+        background: #555555;
+    }
+    version-badge > inline-div:last-of-type{
+        display:inline-block;
+        padding:0 0.5rem;
+        background: #97ca00;
+    }
+</style>
+<version-badge style="margin: 1rem 0;">
+    <inline-div>Version</inline-div><inline-div>0.5.0 Aphyocharacinae</inline-div>
+</version-badge>
 
 > Yet Another Online Judge Platform Based on Laravel
 
