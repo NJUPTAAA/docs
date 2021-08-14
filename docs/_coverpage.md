@@ -1,4 +1,7 @@
-# ![NOJ](https://github.com/ZsgsDesign/NOJ/raw/master/noj2.png) <small>0.5.0 Aphyocharacinae</small>
+<h1 style="margin:0;">
+    <img style="height: 5rem;max-width: 80vw;" src="https://github.com/ZsgsDesign/NOJ/raw/master/noj2.png" data-origin="https://github.com/ZsgsDesign/NOJ/raw/master/noj2.png" alt="NOJ">
+</h1>
+<small>0.5.0 Aphyocharacinae</small>
 
 > Yet Another Online Judge Platform Based on Laravel
 
