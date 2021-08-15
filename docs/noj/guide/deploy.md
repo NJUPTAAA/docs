@@ -1,10 +1,10 @@
 # Deploy
 
 1. You need to have a server with Nginx or Apache installed and installed the following:
-    - [PHP 7.3(Recommend 7.3.6)](http://php.net/downloads.php)
-    - [Composer](https://getcomposer.org)
-    - [MySQL 5.7(Recommend 8.0)](https://www.mysql.com/)
-    - [Redis 3.2.1(Recommend 5.0)](https://redis.io)
+    - [PHP 7.4 (Recommend 7.4.22)](http://php.net/downloads.php)
+    - [Composer 2](https://getcomposer.org)
+    - [MySQL 5.7 (Recommend 8.0)](https://www.mysql.com/)
+    - [Redis 3.2.1 (Recommend 5.0)](https://redis.io)
 
 !> Notice: If you are a green hand and are using `Linux`, we recommend you `lnmp`, it's an open-source script for installing `Nginx`, `Mysql` and `PHP`. It can also be used install `Redis` as well. Check https://lnmp.org for more info.
 
