@@ -22,6 +22,16 @@ php artisan manage:create-admin
 php artisan manage:ban --user=1 --reason="Violation of user instructions" --time="+365 days"
 ```
 
+### Permission
+
+Action can be `grant`,`revoke`,`list`.
+UID is the id of the target user.
+Permission is the id of a permission, check id via running `php artisan manage:permission` directly.
+
+```bash
+php artisan manage:permission --action=grant --uid=1 --permission=1
+```
+
 ## Babel
 
 See **Babel Section**.
