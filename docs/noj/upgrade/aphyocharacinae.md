@@ -2,11 +2,7 @@
 
 NOJ 0.5.0 Aphyocharacinae brings structure changes to NOJ. Which requires extra attention.
 
-!> Note that since this version NOJ requires Composer `^2.0` and PHP `^7.4`.
-
-1. Before upgrade to 0.5.0, you need to upgrade your PHP to `7.4` or above, then run `composer self-update` if you are not using Composer 2.
-
-!> If you are updating Composer from 1 to 2. you also need to remove `vendor` folder located in NOJ root folder.
+!> Note that since this version NOJ requires Composer `^2.0` and PHP `^7.4`. Before upgrade to 0.5.0, you need to upgrade your PHP to `7.4` or above, then run `composer self-update` if you are not using Composer 2. If you are updating Composer from 1 to 2. you also need to remove `vendor` folder located in NOJ root folder.
 
 1. When upgrade to 0.5.0, you need to **run commands from [Basic Upgrade](noj/upgrade/basic.md) frist**.
 
