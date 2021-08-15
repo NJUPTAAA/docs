@@ -24,7 +24,7 @@ php artisan manage:ban --user=1 --reason="Violation of user instructions" --time
 
 ### Permission
 
-Action can be `grant`,`revoke`,`list`.
+Action can be `grant`, `revoke`, `list`.
 UID is the id of the target user.
 Permission is the id of a permission, check id via running `php artisan manage:permission` directly.
 
