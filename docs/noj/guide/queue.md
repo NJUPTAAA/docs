@@ -115,11 +115,12 @@ autostart=true
 autorestart=true
 user=www
 numprocs=1
+startretries=10000
 ```
 
 The `numprocs` directive will instruct Supervisor to run 1 `babel:judge` processe and monitor it, automatically restarting it if fail.
 
-!> `numprocs` should always be 1, unlike above sections which you can set any number you wish.
+!> `numprocs` should always be 1, unlike above sections which you can set any number you wish. `startretries` should be an extra large value.
 
 2. Once the configuration file has been created, you may update the Supervisor configuration and start the processes using the following commands:
 
