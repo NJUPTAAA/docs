@@ -26,7 +26,7 @@
     <inline-div>Version</inline-div><inline-div>0.5.1 Aphyocharacinae Build Pack 1</inline-div>
 </version-badge>
 
-> Yet Another Online Judge Platform Based on Laravel
+> Yet Another Online Judge Platform based on Laravel
 
 - 🚀 Modern Designed with **Material Design** Principal
 - ⚡️️ Expressive, Elegant with **Laravel Framework**
