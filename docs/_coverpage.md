@@ -28,10 +28,10 @@
 
 > Yet Another Online Judge Platform Based on Laravel
 
-- Modern Designed with *Material Design* Principal
-- Expressive, Elegant with *Laravel Framework*
-- Support Virtual Judges through *NOJ BABEL Marketspace*
-- *Sandbox Secured* Judger
+- Modern Designed with **Material Design** Principal
+- Expressive, Elegant with **Laravel Framework**
+- Support Virtual Judges through **NOJ BABEL Marketspace**
+- **Sandbox Secured** Judger
 
 [GitHub](https://github.com/ZsgsDesign/NOJ/)
 [Getting Started](#noj-documentation)
