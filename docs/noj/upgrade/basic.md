@@ -12,7 +12,7 @@ php artisan down
 git pull
 ```
 
-3. Install new packages.
+3. Install composer packages.
 
 ```bash
 composer install
@@ -30,7 +30,19 @@ php artisan migrate
 php artisan view:clear
 ```
 
-5. Make your application live again.
+6. Notice that since `NOJ 0.16.0` we introduced `NPM` and `TypeScript`, so it is required to install node.js packages each time you upgrade NOJ since `0.16.0`.
+
+```bash
+npm install
+```
+
+7. Notice that since `NOJ 0.16.0` we introduced `Webpack`, So it it required to compile and pack static resources each time you upgrade NOJ since `0.16.0`.
+
+```bash
+npm run production
+```
+
+8. Make your application live again.
 
 ```bash
 php artisan up
