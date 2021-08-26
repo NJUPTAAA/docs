@@ -18,6 +18,8 @@
   - [FAQ](noj/faq.md)
   - [Contact Us](noj/contact.md)
   - [Contributors](noj/team.md)
+  - [Change Log](changelog.md)
+  - [Contributing](contributing.md)
 
 - Babel
   - [Usage](babel/usage.md)

@@ -25,6 +25,13 @@
       repo: 'ZsgsDesign/NOJ',
       coverpage: true,
       loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '.*?/changelog':
+          'https://raw.githubusercontent.com/ZsgsDesign/NOJ/master/CHANGELOG.md',
+        '.*?/contributing':
+          'https://raw.githubusercontent.com/ZsgsDesign/NOJ/master/CONTRIBUTING.md'
+      },
       requestHeaders: {
         'cache-control': 'no-cache'
       }
