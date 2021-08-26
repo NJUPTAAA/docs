@@ -23,7 +23,7 @@
     }
 </style>
 <version-badge style="margin: 1rem 0;">
-    <inline-div>Version</inline-div><inline-div>0.5.1 Aphyocharacinae Build Pack 1</inline-div>
+    <inline-div>Version</inline-div><inline-div>0.16.0 Bryconinae</inline-div>
 </version-badge>
 
 > Yet Another Online Judge Platform based on Laravel
