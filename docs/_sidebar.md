@@ -11,6 +11,8 @@
     - [Deploy NOJ with Docker](noj/guide/docker.md)
   - Upgrade Guide
     - [Basic Upgrade](noj/upgrade/basic.md)
+    - [Change Log](noj/upgrade/changelog.md)
+    - [0.5.x to 0.16.0](noj/upgrade/bryconinae.md)
     - [0.4.2 to 0.5.0](noj/upgrade/aphyocharacinae.md)
   - Developer Guide
     - [FrontEnd Utils](noj/guide/frontend.md)
@@ -18,8 +20,6 @@
   - [FAQ](noj/faq.md)
   - [Contact Us](noj/contact.md)
   - [Contributors](noj/team.md)
-  - [Change Log](changelog.md)
-  - [Contributing](contributing.md)
 
 - Babel
   - [Usage](babel/usage.md)
