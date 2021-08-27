@@ -33,8 +33,10 @@ php artisan view:clear
 6. Notice that since `NOJ 0.16.0` we introduced `NPM` and `TypeScript`, so it is required to install node.js packages each time you upgrade NOJ since `0.16.0`.
 
 ```bash
-npm install
+npm ci
 ```
+
+!> Note that `npm install` would update packages from `package.json`, it's different from `composer install` and thus not recommend to use in NOJ.
 
 7. Notice that since `NOJ 0.16.0` we introduced `Webpack`, So it it required to compile and pack static resources each time you upgrade NOJ since `0.16.0`.
 

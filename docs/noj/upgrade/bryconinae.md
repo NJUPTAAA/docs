@@ -9,10 +9,10 @@ NOJ 0.16.0 Bryconinae brings structure changes to NOJ, which requires extra atte
 2. Now, after step 5, you may notice something new. Since 0.16.0 we introduced `NPM` and `TypeScript`, so it is required to install node.js packages each time you upgrade NOJ since `0.16.0`.
 
 ```bash
-npm install
+npm ci
 ```
 
-!> Note that `npm install` would install packages from `package-lock.json` if `package.json` is not modified, it's different from `composer install`.
+!> Note that `npm install` would update packages from `package.json`, it's different from `composer install` and thus not recommend to use in NOJ.
 
 3. Since `NOJ 0.16.0` we introduced `Webpack`, So it it required to compile and pack static resources each time you upgrade NOJ since `0.16.0`.
 
