@@ -36,9 +36,9 @@ php artisan view:clear
 npm ci
 ```
 
-!> Note that `npm install` would update packages from `package.json`, it's different from `composer install` and thus not recommend to use in NOJ.
+!> Note that `npm install` would update packages from `package.json`, it's different from `composer install` and thus **NEVER** use it in NOJ.
 
-7. Notice that since `NOJ 0.16.0` we introduced `Webpack`, So it it required to compile and pack static resources each time you upgrade NOJ since `0.16.0`.
+7. Notice that since `NOJ 0.16.0` we introduced `Webpack`, so it is required to compile and bundle static resources each time you upgrade NOJ since `0.16.0`.
 
 ```bash
 npm run production

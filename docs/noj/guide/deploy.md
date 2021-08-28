@@ -75,7 +75,21 @@ php artisan migrate
 php artisan passport:install
 ```
 
-9. At last, we need to configure scheduling system for NOJ;
+9. Since `0.16.0` NOJ introduces `NPM` and `TypeScript`, so it is required to install node.js packages.
+
+```bash
+npm ci
+```
+
+!> Note that `npm install` would update packages from `package.json`, it's different from `composer install` and thus **NEVER** use it in NOJ.
+
+10. Since `0.16.0` NOJ introduces `Webpack`, so it is required to compile and bundle static resources.
+
+```bash
+npm run production
+```
+
+11. At last, we need to configure scheduling system for NOJ;
 
 ```bash
 crontab -e
@@ -84,5 +98,5 @@ crontab -e
 
 !> Notice: NOJ Task Schedule runs lots of tasks, like sync judger or refresh ranks, you can check anytime at **NOJ Admin Panel**.
 
-10. NOJ's Website can now be accessed by public, enjoy!
+12. NOJ's Website can now be accessed by public, enjoy!
 
