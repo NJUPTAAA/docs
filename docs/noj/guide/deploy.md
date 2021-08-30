@@ -124,7 +124,13 @@ crontab -e
 * * * * * php /path-to-noj/artisan schedule:run
 ```
 
-!> Notice: NOJ Task Schedule runs lots of tasks, like sync judger or refresh ranks, you can check anytime at **NOJ Admin Panel**.
+!> Notice: NOJ Task Schedule runs lots of tasks, like sync judger (before `0.5.0`) or refresh ranks, you can check anytime at **NOJ Admin Panel**.
 
-12. NOJ's Website can now be accessed by public, enjoy!
+12. If you want to use built-in NOJ Babel Extension, you can run the following, you can install anything provided by BABEL Marketspace;
+
+```bash
+php artisan babel:install noj
+```
+
+13. NOJ's Website can now be accessed by public, enjoy!
 
