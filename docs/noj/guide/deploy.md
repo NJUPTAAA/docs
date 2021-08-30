@@ -9,6 +9,14 @@
 
 !> Notice: If you are a green hand and are using `Linux`, we recommend you `lnmp`, it's an open-source script for installing `Nginx`, `Mysql` and `PHP`. It can also be used install `Redis` as well. Check https://lnmp.org for more info.
 
+If you are using `lnmp`, you can run the following after installation:
+
+```bash
+lnmp vhost add
+```
+
+Remember to choose `laravel` for rewrite rules.
+
 2. Clone NOJ to your website folder;
 
 ```bash
@@ -17,6 +25,25 @@ git clone https://github.com/ZsgsDesign/NOJ ./
 ```
 
 3. Change your website root to `public` folder and then, if there is a `open_basedir` restriction, remove it;
+
+```bash
+cd /usr/local/nginx/conf/vhost # use lnmp nginx as an example, this is auto generated via lnmp vhost add
+vim noj.conf # replace with your config name
+```
+
+Then locate this line starts with `root`:
+
+```bash
+root  /home/wwwroot/noj;
+```
+
+Change it to:
+
+```bash
+root  /home/wwwroot/noj/public;
+```
+
+!> `lnmp` provides a script to remove open_basedir, it's located at `tools/remove_open_basedir_restriction.sh` of your `lnmp` folder.
 
 4. Now run the following commands at the root folder of NOJ;
 
