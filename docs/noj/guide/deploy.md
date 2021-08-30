@@ -5,6 +5,7 @@
     - [Composer 2](https://getcomposer.org)
     - [MySQL 5.7 (Recommend 8.0)](https://www.mysql.com/)
     - [Redis 3.2.1 (Recommend 5.0)](https://redis.io)
+    - [NPM 6 & Node.js 14](https://nodejs.org/en/download/)
 
 !> Notice: If you are a green hand and are using `Linux`, we recommend you `lnmp`, it's an open-source script for installing `Nginx`, `Mysql` and `PHP`. It can also be used install `Redis` as well. Check https://lnmp.org for more info.
 
@@ -23,7 +24,7 @@ git clone https://github.com/ZsgsDesign/NOJ ./
 composer install
 ```
 
-!> Notice: you may find this step(or others) fails with message like "func() has been disabled for security reasons", it means you need to remove restrictions on those functions, basically Laravel and Composer require `proc_open()`, `popen()` and `proc_get_status()` to work properly.
+!> Notice: you may find this step(or others) fails with message like "func() has been disabled for security reasons", it means you need to remove restrictions on those functions, basically Laravel and Composer require `proc_open()`, `popen()` and `proc_get_status()` to work properly. Also you need to enable extension `ext-sockets`.
 
 5. Almost done, you still got to modify a few folders and give them permission to write;
 
