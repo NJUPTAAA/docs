@@ -15,7 +15,7 @@ If you are using `lnmp`, you can run the following after installation:
 lnmp vhost add
 ```
 
-Remember to choose `laravel` for rewrite rules.
+!> Remember to choose `laravel` for rewrite rules.
 
 2. Clone NOJ to your website folder;
 
