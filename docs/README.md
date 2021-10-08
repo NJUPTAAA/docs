@@ -6,7 +6,7 @@
 
  - NJUPT Online Judge https://acm.njupt.edu.cn
  - Yangzhou High School Online Judge http://oj.yzzx.org
- - Jiangxi Normal University Online Judge
+ - Jiangxi Normal University Online Judge http://acs.jxnu.edu.cn
 
 ## Contact Support
 
