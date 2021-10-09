@@ -12,6 +12,7 @@
   - Upgrade Guide
     - [Basic Upgrade](noj/upgrade/basic.md)
     - [Change Log](noj/upgrade/changelog.md)
+    - [0.16.x to 0.17.0](noj/upgrade/characinae.md)
     - [0.5.x to 0.16.0](noj/upgrade/bryconinae.md)
     - [0.4.2 to 0.5.0](noj/upgrade/aphyocharacinae.md)
   - Developer Guide
